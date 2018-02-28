@@ -7,7 +7,7 @@
 
     HomeController.$inject = ['$scope', 'Principal', 'LoginService', '$state'];
 
-    function HomeController ($scope, Principal, LoginService, $state) {
+    function HomeController ($scope, Principal,     aLoginService, $state) {
         var vm = this;
 
         vm.account = null;

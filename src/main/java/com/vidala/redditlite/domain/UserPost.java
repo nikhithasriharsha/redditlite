@@ -31,7 +31,6 @@ public class UserPost extends AbstractAuditingEntity implements Serializable {
     @Column(name="image_url", length = 200)
     private String imageUrl;
 
-    @JsonIgnore
     @ManyToOne
     private User user;
 

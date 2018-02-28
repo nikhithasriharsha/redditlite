@@ -54,4 +54,8 @@
                                  referencedColumnNames="id"
                                  referencedTableName="jhi_user"/>
     </changeSet>
+
+    <changeSet id ="001-2" author = "nikki">
+        <modifyDataType tableName="user_posts" columnName="created_by" newDataType="varchar(50)"/>
+    </changeSet>
 </databaseChangeLog>
